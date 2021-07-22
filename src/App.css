@@ -24,6 +24,10 @@
   color: white;
 }
 
+.App {
+  background-image: "./public/assets/images/purple-abstract-background.jpeg";
+}
+
 .App-link {
   color: #61dafb;
 }
