@@ -24,8 +24,9 @@
   color: white;
 }
 
-.App {
-  background-image: "./public/assets/images/purple-abstract-background.jpeg";
+.Container {
+  background-image: url
+    ("../public/assets/images/purple-abstract-background.jpeg");
 }
 
 .App-link {

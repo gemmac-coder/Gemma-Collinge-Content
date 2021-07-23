@@ -5,7 +5,9 @@ import Intro from "./components/Intro.js";
 function App() {
   return (
     <div className="App">
-      <Intro />
+      <div className="Container">
+        <Intro />
+      </div>
     </div>
   );
 }

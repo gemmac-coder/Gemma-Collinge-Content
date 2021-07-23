@@ -12,6 +12,10 @@ code {
     monospace;
 }
 
+/* .App {
+  background: linear-gradient(#00afb9, #0081a7);
+} */
+
 #h1-span {
   margin-top: 1rem;
   font-size: 4rem;
