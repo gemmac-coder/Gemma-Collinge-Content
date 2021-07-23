@@ -16,19 +16,27 @@ code {
   background: linear-gradient(#00afb9, #0081a7);
 } */
 
-#h1-span {
+#Intro-Container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* #h1-span {
   margin-top: 1rem;
   font-size: 4rem;
   letter-spacing: 5px;
   -webkit-text-fill-color: white;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: grey;
-  text-shadow: 3px 3px grey;
-  /* position: absolute; */
-  /* top: 50%;
+  text-shadow: 3px 3px black;
+  /* position: absolute;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%); */
-}
+/* */
 
 h1 {
   text-align: center;
@@ -36,3 +44,83 @@ h1 {
   font-weight: bolder;
   color: #f0f8ff;
 }
+
+.text {
+  -webkit-animation: color-change 4s infinite;
+  -moz-animation: color-change 4s infinite;
+  -o-animation: color-change 4s infinite;
+  -ms-animation: color-change 4s infinite;
+  animation: color-change 4s infinite;
+}
+
+@-webkit-keyframes color-change {
+  0% {
+    color: white;
+  }
+  50% {
+    color: #fb5607;
+  }
+  100% {
+    color: #d81159;
+  }
+}
+@-moz-keyframes color-change {
+  0% {
+    color: white;
+  }
+  50% {
+    color: #fb5607;
+  }
+  100% {
+    color: #d81159;
+  }
+}
+@-ms-keyframes color-change {
+  0% {
+    color: white;
+  }
+  50% {
+    color: #fb5607;
+  }
+  100% {
+    color: #d81159;
+  }
+}
+@-o-keyframes color-change {
+  0% {
+    color: white;
+  }
+  50% {
+    color: #fb5607;
+  }
+  100% {
+    color: #d81159;
+  }
+}
+@keyframes color-change {
+  0% {
+    color: white;
+  }
+  50% {
+    color: #dc2f02;
+  }
+  100% {
+    color: #d00000;
+  }
+}
+
+/* color: white;
+  border: 5px solid;
+  border-radius: 5px;
+  background: linear-gradient(
+    to right,
+    #d6d6d6 20%,
+    #a100f2 30%,
+    #2c2c2c 70%,
+    #2c2c2c 80%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% auto;
+} */
