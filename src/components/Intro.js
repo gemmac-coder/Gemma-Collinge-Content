@@ -9,6 +9,7 @@ class Intro extends Component {
       <div id="Intro-Container">
         <div id="Welcome-Container">
           <h1 className="neon-heading">WELCOME</h1>
+          <h2> I'm Gemma, Marketer, Writer, Full-Stack Developer.</h2>
         </div>
       </div>
     );
