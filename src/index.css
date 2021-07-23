@@ -40,12 +40,13 @@ code {
 
 h1 {
   text-align: center;
-  font-size: 4rem;
+  font-size: 5rem;
   font-weight: bolder;
   color: #f0f8ff;
+  animation: flicker 2s infinite alternate;
 }
 
-.text {
+/* .text {
   -webkit-animation: color-change 4s infinite;
   -moz-animation: color-change 4s infinite;
   -o-animation: color-change 4s infinite;
@@ -106,6 +107,34 @@ h1 {
   }
   100% {
     color: #d00000;
+  }
+} */
+
+.neon-heading {
+  color: #fff;
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.4), 0 0 20px #fe3a80,
+    0 0 40px rgba(255, 0, 91, 0.75), 0 0 50px rgba(255, 0, 91, 0.75),
+    0 0 100px rgba(255, 0, 91, 0.75);
+}
+
+@keyframes flicker {
+  0%,
+  15%,
+  22%,
+  30%,
+  40%,
+  53%,
+  60%,
+  70%,
+  100% {
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3), 0 0 20px #fe3a80,
+      0 0 40px rgba(255, 0, 91, 0.75), 0 0 50px rgba(255, 0, 91, 0.75),
+      0 0 100px rgba(255, 0, 91, 0.75);
+  }
+  20%,
+  24%,
+  55% {
+    text-shadow: none;
   }
 }
 
