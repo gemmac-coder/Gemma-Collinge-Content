@@ -16,7 +16,7 @@ code {
   background: linear-gradient(#00afb9, #0081a7);
 } */
 
-#Intro-Container {
+#Welcome-Container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
