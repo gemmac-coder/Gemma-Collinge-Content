@@ -8,20 +8,16 @@ const Header = (props) => {
   return (
     <header id="welcome-section">
       <div className="container">
-        <h1>
-          <span className="line">Hi, I'm Gemma.</span>
-          <br></br>
-        </h1>
+        <h1>Hi, I'm</h1>
+        <span id="h2-span">
+          <h2>GEMMA</h2>
+        </span>
       </div>
     </header>
   );
 };
 
 class App extends React.Component {
-  // state = {
-  //   menuState: false,
-  // };
-
   render() {
     return (
       <React.Fragment>
