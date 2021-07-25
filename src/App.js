@@ -86,6 +86,38 @@ const Main = (props) => {
             repository="http://github.com/gemmac-coder/dish-up"
             URL="https://blooming-tundra-91244.herokuapp.com/"
           ></Project>
+          <Project
+            title="DISHUP"
+            image={
+              "https://raw.githubusercontent.com/gemmac-coder/dish-up/main/public/assets/screenshots/landing-page.png"
+            }
+            repository="http://github.com/gemmac-coder/dish-up"
+            URL="https://blooming-tundra-91244.herokuapp.com/"
+          ></Project>
+          <Project
+            title="DISHUP"
+            image={
+              "https://raw.githubusercontent.com/gemmac-coder/dish-up/main/public/assets/screenshots/landing-page.png"
+            }
+            repository="http://github.com/gemmac-coder/dish-up"
+            URL="https://blooming-tundra-91244.herokuapp.com/"
+          ></Project>
+          <Project
+            title="DISHUP"
+            image={
+              "https://raw.githubusercontent.com/gemmac-coder/dish-up/main/public/assets/screenshots/landing-page.png"
+            }
+            repository="http://github.com/gemmac-coder/dish-up"
+            URL="https://blooming-tundra-91244.herokuapp.com/"
+          ></Project>
+          <Project
+            title="DISHUP"
+            image={
+              "https://raw.githubusercontent.com/gemmac-coder/dish-up/main/public/assets/screenshots/landing-page.png"
+            }
+            repository="http://github.com/gemmac-coder/dish-up"
+            URL="https://blooming-tundra-91244.herokuapp.com/"
+          ></Project>
         </div>
       </div>
     </section>
