@@ -192,7 +192,7 @@ body {
   background-image: linear-gradient(
       to bottom,
       /* #ffe5ec 70%, */ #fff0f3 90%,
-      rgba(0, 255, 0, 0) 96%
+      rgba(0, 255, 0, 0) 98%
     ),
     url("https://images.unsplash.com/photo-1532680678473-a16f2cda8e43?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80");
   margin-top: -5rem;
