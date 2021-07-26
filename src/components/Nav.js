@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import "../Navbar.css";
+import "../Nav.css";
 
-class Navbar extends Component {
+class Nav extends Component {
   render() {
     return (
-      <div id="Navbar">
+      <div id="Nav">
         <div id="Github-icon-container">GitHub</div>
         <div id="Linkedin-icon-container">Linkedin</div>
       </div>
@@ -12,4 +12,4 @@ class Navbar extends Component {
   }
 }
 
-export default Navbar;
+export default Nav;

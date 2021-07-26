@@ -1,5 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
+import Nav from "./components/Nav";
 // import "./components/Main.js";
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
@@ -10,7 +11,14 @@ import Col from "react-bootstrap/Col";
 const Header = (props) => {
   return (
     <header id="welcome-section">
-      <div className="container">
+      <div className="nav-container">
+        {" "}
+        <div id="nav-item-container">GitHub</div>
+        <div id="nav-item-container">Linkedin</div>
+        <div id="nav-item-container">About</div>
+        <div id="nav-item-container">Work</div>
+      </div>
+      <div className="heading-container">
         <span id="h1-span">
           <h1>GEMMA</h1>
         </span>
@@ -18,6 +26,9 @@ const Header = (props) => {
     </header>
   );
 };
+
+// Project props: title, image, repo link, URL link
+// An array with props, then just do one project card with relevant props passed in where you want them props.title(array number)
 
 const Project = (props) => {
   const link = props.link || "http://";
@@ -39,7 +50,6 @@ const Project = (props) => {
       </a>
       <div className="project-details">
         <div className="project-tile">{props.title} </div>
-        {props.children}
         <div className="buttons">
           <a href={repo} target="_blank" rel="noopener noreferrer">
             View source <i className="fas fa-external-link-alt" />
@@ -61,7 +71,7 @@ const Main = (props) => {
           <span id="h2-span-about">
             <h2>ABOUT ME</h2>
           </span>
-          <p className="subtitle">
+          <p className="about-info">
             Hi, I'm Gemma. Writer, Marketer, and now a full-stack web developer.
             Since February, I have been enrolled at the Coding Boot Camp,
             learning everything from Javascript to MongoDB. Follow me on my

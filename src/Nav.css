@@ -1,15 +1,16 @@
-#Navbar {
+#Nav {
   width: 100%;
   padding: 1.5rem;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-end;
   font-weight: bold;
   font-weight: 2rem;
+  background-color: transparent;
 }
 
-#Github-icon-container {
-  background-color: white;
+#nav-item-container {
+  background-color: transparent;
   border-radius: 5px;
   text-align: center;
   padding: 3px;
@@ -19,7 +20,7 @@
 }
 
 #Linkedin-icon-container {
-  background-color: white;
+  background-color: transparent;
   text-align: center;
   border-radius: 5px;
   padding: 3px;
