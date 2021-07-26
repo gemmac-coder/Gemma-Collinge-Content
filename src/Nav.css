@@ -1,6 +1,6 @@
 #Nav {
   width: 100%;
-  padding: 1.5rem;
+  padding: 1rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
@@ -15,16 +15,5 @@
   text-align: center;
   padding: 3px;
   margin: 0.5rem;
-  mix-blend-mode: screen;
-  padding: 0.5rem;
-}
-
-#Linkedin-icon-container {
-  background-color: transparent;
-  text-align: center;
-  border-radius: 5px;
-  padding: 3px;
-  mix-blend-mode: screen;
-  padding: 0.5rem;
-  margin: 0.5rem;
+  /* mix-blend-mode: screen; */
 }

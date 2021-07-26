@@ -13,10 +13,24 @@ const Header = (props) => {
     <header id="welcome-section">
       <div className="nav-container">
         {" "}
-        <div id="nav-item-container">GitHub</div>
-        <div id="nav-item-container">Linkedin</div>
-        <div id="nav-item-container">About</div>
-        <div id="nav-item-container">Work</div>
+        <div id="nav-item-container">
+          <p>Git</p>
+        </div>
+        <div id="nav-item-container">
+          <p>Linkedin</p>
+        </div>
+        <div id="nav-item-container">
+          <p>About</p>
+        </div>
+        <div id="nav-item-container">
+          <p>Work</p>
+        </div>
+        <div id="nav-item-container">
+          <p>CV</p>
+        </div>
+        <div id="nav-item-container">
+          <p>Contact</p>
+        </div>
       </div>
       <div className="heading-container">
         <span id="h1-span">
