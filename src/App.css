@@ -230,7 +230,7 @@ body {
   text-align: center;
   overflow: hidden;
   border: 5px solid;
-  background-color: #ff8fab;
+  background-color: #fb6f92;
   border-radius: 5px;
   border-image: linear-gradient(to bottom, #ff8fab, #f51d76) 1 100%;
   color: white;
@@ -361,20 +361,22 @@ body {
   border-radius: 5px;
   color: white;
   font-weight: bolder;
-  background: #ff8fab;
-  border-bottom: 2px solid;
-  border-color: #ff5c8d;
-  box-shadow: 0 20px 20px -15px #25293450;
-  font-size: 1.2rem;
-  text-align: center;
-}
-
-#projects .project-details .buttons a:hover {
   background: #fb6f92;
   color: #fafafa;
   border-bottom: 2px solid;
   border-color: #ff3366;
+  box-shadow: 0 20px 20px -15px #25293450;
+  font-size: 1.2rem;
+  text-decoration: none;
+  text-align: center;
 }
+
+#projects .project-details .buttons a:hover {
+  background: #ff8fab;
+  border-bottom: 2px solid;
+  border-color: #ff5c8d;
+}
+
 #projects .project-details .buttons i {
   font-size: 0.8rem;
   vertical-align: middle;
