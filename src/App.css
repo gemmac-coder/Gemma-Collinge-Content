@@ -272,7 +272,6 @@ body {
   border-image: linear-gradient(to bottom, #ff8fab, #f51d76) 1 100%;
   color: white;
   color: #e0dfdc;
-  background-color: #333;
   box-shadow: 0 20px 20px -15px #25293450;
 }
 
@@ -345,7 +344,7 @@ body {
   font-weight: bolder;
   background: #ff8fab;
   border-bottom: 2px solid;
-  border-color: #fb6f92;
+  border-color: #ff5c8d;
   box-shadow: 0 20px 20px -15px #25293450;
   font-size: 1.2rem;
   text-align: center;
@@ -355,7 +354,7 @@ body {
   background: #fb6f92;
   color: #fafafa;
   border-bottom: 2px solid;
-  border-color: #f51d76;
+  border-color: #ff3366;
 }
 #projects .project-details .buttons i {
   font-size: 0.8rem;
