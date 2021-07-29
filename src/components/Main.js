@@ -37,6 +37,7 @@ const Main = (props) => {
     <section id="projects">
       <div className="projects-container">
         <About />
+        <div className="triangle-clip-image"></div>
         {repos.map((repo) => {
           <Project props={repo} />;
         })}

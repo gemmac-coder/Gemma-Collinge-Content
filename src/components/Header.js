@@ -4,16 +4,16 @@ const Header = (props) => {
       <div className="nav-container">
         {" "}
         <div id="nav-item-container">
-          <p>Git</p>
+          <p>GIT</p>
         </div>
         <div id="nav-item-container">
-          <p>Linkedin</p>
+          <p>LINKEDIN</p>
         </div>
         <div id="nav-item-container">
-          <p>About</p>
+          <p>ABOUT</p>
         </div>
         <div id="nav-item-container">
-          <p>Work</p>
+          <p>WORK</p>
         </div>
         <div id="nav-item-container">
           <p>CV</p>
