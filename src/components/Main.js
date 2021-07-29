@@ -24,6 +24,14 @@ const Main = (props) => {
     };
     fetchData();
   }, []);
+
+  if (loading) {
+    return <div>Loading...</div>;
+  }
+
+  if (error) {
+    return <div>Error</div>;
+  }
   console.log(repos);
   return (
     <section id="projects">

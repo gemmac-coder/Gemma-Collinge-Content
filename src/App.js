@@ -86,7 +86,7 @@ class App extends Component {
   render() {
     return (
       <React.Fragment>
-        <Header />
+        <Header></Header>
         <Main />
       </React.Fragment>
     );

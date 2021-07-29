@@ -18,9 +18,6 @@ const Header = (props) => {
         <div id="nav-item-container">
           <p>CV</p>
         </div>
-        <div id="nav-item-container">
-          <p>Contact</p>
-        </div>
       </div>
       <div className="heading-container">
         <span id="h1-span">
