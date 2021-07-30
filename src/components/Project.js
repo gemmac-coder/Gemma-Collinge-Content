@@ -1,6 +1,10 @@
 import React from "react";
 
 const Project = (props) => {
+  const { repo } = props;
+  const { name } = repo;
+  const { html_url } = repo;
+
   return (
     <div className="project">
       <a
@@ -12,17 +16,13 @@ const Project = (props) => {
         <img
           className="project-image"
           src="http://raw.githubusercontent.com/gemmac-coder/Gemma-Collinge-Web-Development-Portfolio/main/assets/images/samplify-uk-homepage.png"
-          alt={"Screenshot of " + props.name}
+          alt={"Screenshot of " + name}
         />
       </a>
       <div className="project-details">
-        <div className="project-tile">{props.name}</div>
+        <div className="project-tile">{name}</div>
         <div className="buttons">
-          <a
-            href="http://github.com/gemmac-coder/samplify-uk"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href={html_url} target="_blank" rel="noopener noreferrer">
             View source <i className="fas fa-external-link-alt" />
           </a>
           <a

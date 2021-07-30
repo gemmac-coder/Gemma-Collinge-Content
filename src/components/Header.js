@@ -21,6 +21,7 @@ const Header = (props) => {
       </div>
       <div className="heading-container">
         <span id="h1-span">
+          <div className="pink-triangle"></div>
           <h1>GEMMA</h1>
         </span>
       </div>

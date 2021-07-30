@@ -71,7 +71,7 @@ body {
   font-size: 1.5rem;
   /* mix-blend-mode: screen; */
   padding: 1rem;
-  padding-top: 5rem;
+  padding-top: 4rem;
   font-size: 4rem;
   letter-spacing: 6px;
   /* -webkit-text-fill-color: transparent;
@@ -160,7 +160,7 @@ body {
   -webkit-text-stroke-color: white;
   text-shadow: 3px 4px #f51d76;
   position: absolute;
-  top: 25%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -100%);
 }
@@ -329,20 +329,19 @@ body {
 }
 
 #projects .project-details .project-tile {
-  font-size: 2rem;
+  font-size: 1.85rem;
   text-transform: uppercase;
   font-weight: bold;
   text-align: center;
   margin-bottom: 1.5rem;
-  font-size: 3rem;
-  letter-spacing: 5px;
+  letter-spacing: 4px;
   /* -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 3px;
     -webkit-text-stroke-color: #ff8fab;
     text-shadow: 1px 1px white;
     text-shadow: 4px 4px #f51d76; */
   -webkit-text-fill-color: #f51d76;
-  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: white;
   text-shadow: 3px 4px #343a40;
   opacity: 0.9;
@@ -377,16 +376,16 @@ body {
 
 #projects .project-details .buttons a {
   width: 30%;
-  padding: 0.5rem;
+  padding: 0.65rem;
   margin-top: 0.5rem;
   border-radius: 5px;
   border-radius: 5px;
   color: white;
   font-weight: bolder;
-  background: #fb6f92;
+  background: #f51d76;
   color: #fafafa;
   border-bottom: 2px solid;
-  border-color: #ff3366;
+  border-color: #ec0868;
   box-shadow: 0 20px 20px -15px #25293450;
   font-size: 1.2rem;
   text-decoration: none;
@@ -405,16 +404,49 @@ body {
   margin-left: 0.5rem;
 }
 
-.triangle-clip-image {
-  width: 280px;
-  height: 280px;
-  shape-outside: polygon(55% 0, 0 105%, 105% 100%);
-  float: left;
-  clip-path: polygon(50% 0, 0 100%, 100% 100%);
-  background: url(https://images.unsplash.com/photo-1532680678473-a16f2cda8e43?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80);
-  background-size: cover;
-  margin: 2.5rem;
+.pink-triangle {
+  background-color: #f51d76;
+  clip-path: polygon(50% 0, 100% 100%, 0 100%);
+  width: 100px;
+  height: 100px;
+  opacity: 0.6;
+}
+
+.pink-triangle:first-of-type {
+  background-color: #f51d76;
+  clip-path: polygon(50% 0, 100% 100%, 0 100%);
+  width: 200px;
+  height: 200px;
+  opacity: 0.4;
+}
+
+.triangle-clip-image-2 {
+  background: url(https://images.unsplash.com/photo-1532680678473-a16f2cda8e43?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80);
+  clip-path: polygon(50% 0, 100% 100%, 0 100%);
+  width: 200px;
+  height: 200px;
+  opacity: 0.85;
+  float: right;
+  /* width: 300px;
+  height: 250px;
   opacity: 0.8;
+  clip-path: polygon(50% 100%, 0 0, 100% 0);
+  shape-outside: polygon(50% 100%, 0 0, 100% 0);
+  float: right;
+  background: #fb6f92
+    url(https://images.unsplash.com/photo-1532680678473-a16f2cda8e43?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80);
+  background-size: cover;
+  position: relative;
+  z-index: 2; */
+}
+
+.triangle-clip-image-1 {
+  background: url(https://images.unsplash.com/photo-1532680678473-a16f2cda8e43?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80);
+  clip-path: polygon(50% 0, 100% 100%, 0 100%);
+  width: 200px;
+  height: 200px;
+  opacity: 0.35;
+  float: right;
   /* width: 300px;
   height: 250px;
   opacity: 0.8;
@@ -441,9 +473,6 @@ body {
 }
 
 @media only screen and (max-width: 649px) {
-  #projects {
-    background: #f0f0f0;
-  }
   #projects .projects-container {
     padding: 12rem 0 8rem;
   }
