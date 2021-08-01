@@ -32,7 +32,9 @@ const Main = (props) => {
   if (error) {
     return <div>Error</div>;
   }
+
   console.log(repos);
+
   // Line 42 before the map do a filter function repo.name map, the titles of each repo, i.e. if this is repo that i don't want to return don't include it
   return (
     <section id="projects">

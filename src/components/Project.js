@@ -12,13 +12,13 @@ const Project = (props) => {
     <div className="project">
       <a
         className="project-link"
-        href="http://leon3005.github.io/samplify-uk/"
+        href={`https://bit.ly/gemma-collinge-${name}`}
         target="_blank"
         rel="noopener noreferrer"
       >
         <img
           className="project-image"
-          src="http://raw.githubusercontent.com/gemmac-coder/Gemma-Collinge-Web-Development-Portfolio/main/assets/images/samplify-uk-homepage.png"
+          src={`https://raw.githubusercontent.com/gemmac-coder/portfolio-images/master/public/assets/${name}.png`}
           alt={"Screenshot of " + name}
         />
       </a>
@@ -29,7 +29,7 @@ const Project = (props) => {
             View source <i className="fas fa-external-link-alt" />
           </a>
           <a
-            href="http://leon3005.github.io/samplify-uk/"
+            href={`https://bit.ly/gemma-collinge-${name}`}
             target="_blank"
             rel="noopener noreferrer"
           >
