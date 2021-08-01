@@ -345,7 +345,7 @@ body {
     text-shadow: 1px 1px white;
     text-shadow: 4px 4px #f51d76; */
   -webkit-text-fill-color: #f51d76;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 0.5px;
   -webkit-text-stroke-color: white;
   text-shadow: 3px 4px #343a40;
   opacity: 0.9;
@@ -526,5 +526,10 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+  }
+  #nav-item-container p {
+    font-size: 0.65rem;
+    padding-left: 0.01rem;
+    padding-right: 0.01rem;
   }
 }

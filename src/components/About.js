@@ -12,7 +12,7 @@ export const About = (props) => {
         Since February, I have been enrolled at the Coding Boot Camp, learning
         everything from Javascript to MongoDB. Follow me on my odyssey through
         web development, by checking out some of my recent work below.
-        <br></br>
+        <br></br>{" "}
       </p>
       <div className="triangle-clip-image-2"></div>
       {/* </div> */}

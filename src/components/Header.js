@@ -9,6 +9,14 @@ const Header = (props) => {
           </a>
         </div>
         <div id="nav-item-container">
+          <a
+            href="https://www.linkedin.com/in/gemma-collinge-08802b86/"
+            target="blank"
+          >
+            <p>SOCIAL</p>
+          </a>
+        </div>
+        <div id="nav-item-container">
           <a href="#about-info-container">
             <p>ABOUT</p>
           </a>
