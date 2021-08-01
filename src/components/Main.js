@@ -36,11 +36,13 @@ const Main = (props) => {
   // Line 42 before the map do a filter function repo.name map, the titles of each repo, i.e. if this is repo that i don't want to return don't include it
   return (
     <section id="projects">
-      <div className="projects-container">
+      <div id="projects-container">
         <About />
-        {repos.map((repo) => {
-          return <Project repo={repo} />;
-        })}
+        <div id="project-cards">
+          {repos.map((repo) => {
+            return <Project repo={repo} />;
+          })}
+        </div>
         <div className="triangle-clip-image"></div>
       </div>
     </section>

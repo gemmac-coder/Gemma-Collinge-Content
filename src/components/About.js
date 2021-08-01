@@ -2,7 +2,7 @@ import React from "react";
 
 export const About = (props) => {
   return (
-    <div className="about-info-container">
+    <div id="about-info-container">
       {/* <div className="heading"> */}
       <span id="h2-span-about">
         <h2>ABOUT ME</h2>
