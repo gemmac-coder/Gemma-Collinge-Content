@@ -1,74 +1,13 @@
+// Importing Header and Main Components
 import Header from "./components/Header";
 import Main from "./components/Main";
 
-// import Main from "./components/Main";
-// import Project from "./components/Project";
-
+// Importing React and destructuring component
 import React, { Component } from "react";
 
-// const Main = (props) => {
-//   return (
-//     <section id="projects">
-//       <div className="projects-container">
-//         <div>
-//           <Project
-//             title="SAMPLIFY"
-//             image={
-//               "http://raw.githubusercontent.com/gemmac-coder/Gemma-Collinge-Web-Development-Portfolio/main/assets/images/samplify-uk-homepage.png"
-//             }
-//             repository="http://github.com/gemmac-coder/samplify-uk"
-//             URL="http://leon3005.github.io/samplify-uk/"
-//           ></Project>
-//           <Project
-//             title="DISHUP"
-//             image={
-//               "https://raw.githubusercontent.com/gemmac-coder/dish-up/main/public/assets/screenshots/landing-page.png"
-//             }
-//             repository="http://github.com/gemmac-coder/dish-up"
-//             URL="https://blooming-tundra-91244.herokuapp.com/"
-//           ></Project>
-//           <Project
-//             title="DISHUP"
-//             image={
-//               "https://raw.githubusercontent.com/gemmac-coder/dish-up/main/public/assets/screenshots/landing-page.png"
-//             }
-//             repository="http://github.com/gemmac-coder/dish-up"
-//             URL="https://blooming-tundra-91244.herokuapp.com/"
-//           ></Project>
-//           <Project
-//             title="DISHUP"
-//             image={
-//               "https://raw.githubusercontent.com/gemmac-coder/dish-up/main/public/assets/screenshots/landing-page.png"
-//             }
-//             repository="http://github.com/gemmac-coder/dish-up"
-//             URL="https://blooming-tundra-91244.herokuapp.com/"
-//           ></Project>
-//           <Project
-//             title="DISHUP"
-//             image={
-//               "https://raw.githubusercontent.com/gemmac-coder/dish-up/main/public/assets/screenshots/landing-page.png"
-//             }
-//             repository="http://github.com/gemmac-coder/dish-up"
-//             URL="https://blooming-tundra-91244.herokuapp.com/"
-//           ></Project>
-//           <Project
-//             title="DISHUP"
-//             image={
-//               "https://raw.githubusercontent.com/gemmac-coder/dish-up/main/public/assets/screenshots/landing-page.png"
-//             }
-//             repository="http://github.com/gemmac-coder/dish-up"
-//             URL="https://blooming-tundra-91244.herokuapp.com/"
-//           ></Project>
-//         </div>
-//       </div>
-//     </section>
-//   );
-// };
-
-// Project props: title, image, repo link, URL link
-// An array with props, then just do one project card with relevant props passed in where you want them props.title(array number)
-
+// App class component
 class App extends Component {
+  // Parallax scrolling background effect
   componentDidMount() {
     const header = document.querySelector("#welcome-section");
 
@@ -82,7 +21,7 @@ class App extends Component {
       else header.style.visibility = "hidden";
     };
   }
-
+  // App rendered with header and main components
   render() {
     return (
       <React.Fragment>
@@ -93,4 +32,5 @@ class App extends Component {
   }
 }
 
+// Exporting App
 export default App;

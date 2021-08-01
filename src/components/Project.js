@@ -1,8 +1,7 @@
+// Importing React
 import React from "react";
 
-// Make an file called projectdata.js, inside have an array of objects, each object is a project with name, live url, image, and github keys/values.
-// Then make a projects container
-
+// Project functional component, props are used for the repo name and repo html URL
 const Project = (props) => {
   const { repo } = props;
   const { name } = repo;
@@ -41,4 +40,5 @@ const Project = (props) => {
   );
 };
 
+// Exporting Project
 export default Project;

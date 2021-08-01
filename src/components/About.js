@@ -1,9 +1,10 @@
+// Importing react
 import React from "react";
 
+// About functional component
 export const About = (props) => {
   return (
     <div id="about-info-container">
-      {/* <div className="heading"> */}
       <span id="h2-span-about">
         <h2>ABOUT ME</h2>
       </span>
@@ -15,9 +16,9 @@ export const About = (props) => {
         <br></br>{" "}
       </p>
       <div className="triangle-clip-image-2"></div>
-      {/* </div> */}
     </div>
   );
 };
 
+// Exporting the About component
 export default About;

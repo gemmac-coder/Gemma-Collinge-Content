@@ -1,3 +1,7 @@
+// Importing react
+import React from "react";
+
+// Header functional component
 const Header = (props) => {
   return (
     <header id="welcome-section">
@@ -44,4 +48,5 @@ const Header = (props) => {
   );
 };
 
+// Exporting Header Component
 export default Header;
