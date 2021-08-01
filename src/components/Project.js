@@ -26,14 +26,14 @@ const Project = (props) => {
         <div className="project-tile">{name}</div>
         <div className="buttons">
           <a href={html_url} target="_blank" rel="noopener noreferrer">
-            View source <i className="fas fa-external-link-alt" />
+            View repo
           </a>
           <a
             href={`https://bit.ly/gemma-collinge-${name}`}
             target="_blank"
             rel="noopener noreferrer"
           >
-            Try it Live <i className="fas fa-external-link-alt" />
+            Try it
           </a>
         </div>
       </div>
