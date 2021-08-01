@@ -40,7 +40,7 @@ body {
 .nav-container {
   width: 100%;
   padding-top: 2rem;
-  padding-right: 5rem;
+  padding-right: 3rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
@@ -51,7 +51,7 @@ body {
 }
 
 #nav-item-container p {
-  font-size: 0.95rem;
+  font-size: 1.5rem;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
 }
@@ -112,7 +112,7 @@ body {
   position: fixed;
   background-image: linear-gradient(
       to top left,
-      #fb6f92 35%,
+      #fb6f92 50%,
       rgba(0, 255, 0, 0) 100%
     ),
     url("https://images.unsplash.com/photo-1532680678473-a16f2cda8e43?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80");
@@ -163,10 +163,10 @@ body {
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: white;
   text-shadow: 3px 4px #f51d76;
-  position: absolute;
-  top: 45%;
-  left: 50%;
-  transform: translate(-50%, -100%);
+  position: relative;
+  top: 60%;
+  left: 45%;
+  transform: translate(-20%, -50%);
 }
 
 /* h2 {
@@ -316,7 +316,7 @@ body {
 }
 
 #projects .project .project-link:hover > img {
-  /* filter: saturate(1); */
+  filter: saturate(1);
   transform: scale(1.05);
 }
 
@@ -465,6 +465,8 @@ body {
 }
 
 @media only screen and (max-width: 1149px) {
+  #h1-span h1 {
+  }
   #projects .project {
     grid-template-columns: 1fr 2fr;
   }
@@ -482,5 +484,47 @@ body {
   }
   #projects .project {
     padding: 2rem 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #nav-item-container p {
+    font-size: 1rem;
+    padding-left: 0.15rem;
+    padding-right: 0.15rem;
+  }
+}
+
+@media only screen and (max-width: 579px) {
+  #h1-span h1 {
+    margin-top: 0rem;
+    font-size: 3.5rem;
+    position: relative;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+  }
+  #nav-item-container p {
+    font-size: 0.8rem;
+    padding-left: 0.05rem;
+    padding-right: 0.05rem;
+  }
+
+  #projects #projects-container {
+    padding: 12rem 0 8rem;
+  }
+  #projects .project {
+    padding: 2rem 0;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  #h1-span h1 {
+    margin-top: 0rem;
+    font-size: 3rem;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }
