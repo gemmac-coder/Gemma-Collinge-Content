@@ -1,7 +1,7 @@
 // Importing react
 import React from "react";
 
-// About functional component
+// About functional component...
 export const About = (props) => {
   return (
     <div id="about-info-container">
