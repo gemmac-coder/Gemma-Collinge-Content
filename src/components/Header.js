@@ -1,7 +1,7 @@
 // Importing react
 import React from "react";
 
-// Header functional component
+// Header functional component...
 const Header = (props) => {
   return (
     <header id="welcome-section">
